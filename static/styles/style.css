@@ -484,6 +484,39 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 37px;
 }
 
+.training-types {
+  position: relative;
+  padding-top: 70px;
+  padding-bottom: 120px;
+  background: var(--color-dark);
+}
+
+.training-types-list {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  white-space: nowrap;
+}
+
+.training-types-item {
+  --trainingTypesItemBgIconSize: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 33px;
+  padding-top: var(--trainingTypesItemBgIconSize);
+  background: url(/static/icons/arrow-down-left-transparent.svg) 100% 0/var(--trainingTypesItemBgIconSize) no-repeat;
+  color: var(--color-light);
+}
+
+.training-types-item-title {
+  font-size: 16px;
+}
+
+
+.burmalda {
+  background-color: var(--color-dark-alt);
+}
+
 @media (max-width: 1919px) {
   .motivation-card-image {
     margin-block: -20px;
@@ -517,6 +550,9 @@ h1, h2, h3, h4, h5, h6 {
       max-width: 60%;
       height: auto;
       margin-block: 0;
+    }
+    .training-types-list {
+      grid-template-columns: repeat(3, 1fr);
     }
 }
 @media (max-width: 760px) {
@@ -557,5 +593,16 @@ h1, h2, h3, h4, h5, h6 {
     }
     .motivation-card-description:not(:last-child) {
       margin-bottom: 20px;
+    }
+    .training-types-list {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 30px;
+    }
+    .training-types-item {
+      --trainingTypesItemBgIconSize: 50px;
+      row-gap: 10px;
+    }
+    .training-types-image {
+      max-width: 120px;
     }
 }
