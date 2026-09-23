@@ -538,7 +538,7 @@ h1, h2, h3, h4, h5, h6 {
   align-items: center;
   row-gap: 33px;
   padding-top: var(--trainingTypesItemBgIconSize);
-  background: url(/static/icons/arrow-down-left-transparent.svg) 100% 0/var(--trainingTypesItemBgIconSize) no-repeat;
+  background: url(../icons/arrow-down-left-transparent.svg) 100% 0/var(--trainingTypesItemBgIconSize) no-repeat;
   color: var(--color-light);
 }
 
@@ -556,7 +556,7 @@ h1, h2, h3, h4, h5, h6 {
   align-items: center;
   justify-content: center;
   padding: 150px 30px;
-  background: url('./static/images/join-us-background.jpg') center/cover no-repeat var(--color-dark-alt);
+  background: url('../images/join-us-background.jpg') center/cover no-repeat var(--color-dark-alt);
 }
 
 .join-us-video {
@@ -590,7 +590,7 @@ h1, h2, h3, h4, h5, h6 {
   content: '';
   width: 26px;
   aspect-ratio: 1;
-  background: url(./static/icons/arrow-up-right.svg) center/contain no-repeat;
+  background: url(../icons/arrow-up-right.svg) center/contain no-repeat;
   transition-duration: var(--transition-duration);
 }
 
@@ -623,7 +623,7 @@ h1, h2, h3, h4, h5, h6 {
   display: inline-block;
   height: 0.7em;
   aspect-ratio: 1;
-  background: url(./static/icons/arrow-down-right.svg) center/contain no-repeat;
+  background: url(../icons/arrow-down-right.svg) center/contain no-repeat;
   scale: 1 -1;
   margin-left: 0.14em;
 }
